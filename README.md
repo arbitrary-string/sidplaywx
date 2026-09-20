@@ -1,5 +1,7 @@
 # <img src="../assets/screenshots/composite_spwx_title.png?raw=true"/>
 
+This fork changes how the playlist feature works behind the scenes such that very large playlist can be loaded into the queue without the application crashing under Linux - tested on Ubuntu 26.04. Yes, this was assisted by AI, so this won't be merged into the code base as a PR. But, if anyone else out there is running Linux and trying to load the whole HVSC into the play queue and watching the application crash - this one works for that.
+
 The **sidplaywx** is a GUI player for Commodore 64 SID chip tunes aiming to provide a modern & comfortable SID tune playback experience on the PC.
 
 The current alpha version is fully usable, supporting QoL features like seeking, drag & drop, unicode paths, DPI awareness and much more.
